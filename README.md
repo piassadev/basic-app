@@ -2,7 +2,7 @@
 
 Aplicação mínima Node.js usada para integração com OpenShift e Developer Hub.
 
-## Como executar localmente
+## Como executar localmente!
 
 ```bash
 npm install
