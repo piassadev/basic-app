@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-basic-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: my-basic-app
+  template:
+    metadata:
+      labels:
+        app: my-basic-app
+    spec:
+      containers:
+        - name: my-basic-app
+          image: quay.io/piassadev/basic-app:latest
+          ports:
+            - containerPort: 8080
+
