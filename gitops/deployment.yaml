@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: my-basic-app
-          image: quay.io/piassadev/basic-app:latest
+          image: quay.io/ldossant/basic-app:latest
           ports:
             - containerPort: 8080
 
